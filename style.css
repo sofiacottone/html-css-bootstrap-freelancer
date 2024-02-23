@@ -1,4 +1,20 @@
-/* COLORS  */
+/* #region GENERAL */
+img {
+    max-width: 100%;
+}
+
+.ms-img-container-sm {
+    width: 100%;
+    max-width: 230px;
+}
+
+.ms-img-container-lg {
+    width: 100%;
+    max-width: 400px;
+}
+
+/* #endregion GENERAL */
+/* #region COLORS */
 .ms-bg-dark-blue {
     background-color: #2C3F50;
 }
@@ -10,3 +26,5 @@
 .ms-bg-green {
     background-color: #1ABC9C;
 }
+
+/* #endregion COLORS */
