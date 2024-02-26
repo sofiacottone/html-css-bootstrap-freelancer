@@ -1,4 +1,10 @@
 /* #region GENERAL */
+:root {
+    --ms-green: #1ABC9C;
+    --ms-blue: #2C3F50;
+    --ms-secondary-blue: #3B546D;
+}
+
 .ms-img-container-sm {
     width: 100%;
     max-width: 230px;
@@ -12,15 +18,15 @@
 /* #endregion GENERAL */
 /* #region COLORS */
 .ms-bg-dark-blue {
-    background-color: #2C3F50;
+    background-color: var(--ms-blue);
 }
 
 .ms-bg-secondary-blue {
-    background-color: #3B546D;
+    background-color: var(--ms-secondary-blue);
 }
 
 .ms-bg-green {
-    background-color: #1ABC9C;
+    background-color: var(--ms-green);
 }
 
 /* #endregion COLORS */
@@ -75,6 +81,38 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+}
+
+/* layer  */
+.layer {
+    background-color: #1ABC9C70;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.fa-plus {
+    font-size: 3.125rem;
 }
 
 /* #endregion CUSTOM */
+/* #region :hover */
+header .nav-link:hover {
+    color: var(--ms-green) !important;
+}
+
+.ms-img-container-lg:hover .layer {
+    opacity: 1;
+}
+
+.social-link:hover {
+    color: var(--ms-green);
+    box-shadow: 2px 2px #1ABC9C70;
+}
+
+/* #endregion :hover */
