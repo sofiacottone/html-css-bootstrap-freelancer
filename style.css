@@ -29,6 +29,10 @@
     background-color: var(--ms-green);
 }
 
+.ms-text-green {
+    color: var(--ms-green);
+}
+
 /* #endregion COLORS */
 /* #region CUSTOM */
 
@@ -62,6 +66,13 @@
 }
 
 /* /star  */
+
+/* button  */
+.ms-btn-white-green:hover {
+    background-color: #fff;
+    color: #1ABC9C !important;
+    border-color: #1ABC9C;
+}
 
 /* form  */
 
@@ -97,7 +108,7 @@
 }
 
 .fa-plus {
-    font-size: 3.125rem;
+    font-size: 4.375rem;
 }
 
 /* #endregion CUSTOM */
